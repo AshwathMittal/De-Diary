@@ -1,0 +1,29 @@
+<!-- <div class="col-sm-8"> -->
+<div class="container" style="font-family: 'Indie Flower';">
+  <div class="lines">
+  <div class="container-fluid">
+
+    <div class="row col-sm-8 ">
+     <div class="col-sm-8 ">
+      {{day}}, {{date}} <sup>th</sup> {{month}}, {{year}}</div> <div class="col-sm-4 d-flex justify-content-sm-end">{{hour}}</div>
+    </div>
+    <br>
+  <div class="container-fluid">
+
+<p for="add" class="">Dear Diary,</p>
+<div class="col-sm-8">
+<textarea [autosize]="true" type="text" id="add" rows="10" [(ngModel)]="story"
+ class="form-me text-justify"> </textarea>
+</div>
+
+</div>
+<input type="text" [(ngModel)]="name" style="background: transparent; border: 0ch;"/>
+<br>
+</div>
+<br>
+<div class="row">
+  <div class="col-sm-10"></div>
+<button class="btn col-sm-1  d-flex justify-content-sm-end font-weight-bold" style="font-size: 35px;" (click)="AddDiary()">&rarr;</button>
+</div>
+</div>
+</div>

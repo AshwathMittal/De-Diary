@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+.lines {
+    background-image: linear-gradient(#999 0.05em, transparent 0.1em);
+    background-color: unset !important;
+    background-size: 100% 1.5em;
+    /* width: ; */
+}
